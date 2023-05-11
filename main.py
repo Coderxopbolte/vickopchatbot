@@ -37,11 +37,11 @@ async def is_admins(chat_id: int):
 
 
 EMOJIOS = [ 
-      "═══❰𝐖𝐄𝐋𝐂𝐎𝐌𝐄❱═══",
+      "═══❰❀𝐖𝐄𝐋𝐂𝐎𝐌𝐄❀❱═══",
 ]
       
 START = f"""
-**๏ Hie Baby🐒 ๏**
+**๏ Hie 𝑵𝑰𝑺𝑯𝑼 Baby🐒 ๏**
 """
 
 @bot.on_message(filters.command(["start", "aistart", f"start@{BOT_USERNAME}"]))
@@ -58,11 +58,11 @@ async def restart(client, m: Message):
     await asyncio.sleep(0.1)
     await accha.edit("╔═══❰𝐖𝐄𝐋𝐂𝐎𝐌𝐄❱═══❍⊱❁۪۪\n║\n║➣\n║\n║➣\n║\n║➣\n║\n╚══════ஜ۩۞۩ஜ═════╝")
     await asyncio.sleep(0.2)
-    await accha.edit("╔═══❰𝐖𝐄𝐋𝐂𝐎𝐌𝐄❱═══❍⊱❁۪۪\n║\n║➣ @THE_VIP_BOY\n║\n║➣\n║\n║➣\n║\n╚══════ஜ۩۞۩ஜ═════╝")
+    await accha.edit("╔═══❰𝐖𝐄𝐋𝐂𝐎𝐌𝐄❱═══❍⊱❁۪۪\n║\n║➣ @NISHU_OP_OFFICIAL \n║\n║➣\n║\n║➣\n║\n╚══════ஜ۩۞۩ஜ═════╝")
     await asyncio.sleep(0.2)
-    await accha.edit("╔═══❰𝐖𝐄𝐋𝐂𝐎𝐌𝐄❱═══❍⊱❁۪۪\n║\n║➣ @THE_VIP_BOY\n║\n║➣ @TG_FRIENDSS\n║\n║➣\n║\n╚══════ஜ۩۞۩ஜ═════╝")
+    await accha.edit("╔═══❰𝐖𝐄𝐋𝐂𝐎𝐌𝐄❱═══❍⊱❁۪۪\n║\n║➣ @NISHU_OP_OFFICIAL  \n║\n║➣ @NISHU_OP_OFFICIAL \n║\n║➣ @VICK_SUPPORT \n║\n╚══════ஜ۩۞۩ஜ═════╝")
     await asyncio.sleep(0.2)
-    await accha.edit("╔═══❰𝐖𝐄𝐋𝐂𝐎𝐌𝐄❱═══❍⊱❁۪۪\n║\n║➣ @THE_VIP_BOY\n║\n║➣ @TG_FRIENDSS\n║\n║➣ @VIP_CREATORS\n║\n╚══════ஜ۩۞۩ஜ═════╝")
+    await accha.edit("╔═══❰𝐖𝐄𝐋𝐂𝐎𝐌𝐄❱═══❍⊱❁۪۪\n║\n║➣@NISHU_OP_OFFICIAL \n║\n║➣ @NISHU_OP_OFFICIAL  \n║\n║➣ @VICK_SUPPORT \n║\n╚══════ஜ۩۞۩ஜ═════╝")
      
 
 @bot.on_message(
